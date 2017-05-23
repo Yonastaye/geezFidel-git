@@ -2,7 +2,7 @@
 import java.awt.Color;
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
-
+import javax.swing.JOptionPane;
 public class UI extends javax.swing.JFrame {
 
     private int tSpeed = 2000;    // controls the speed of dynamicaly changing buttons
@@ -1242,43 +1242,43 @@ public class UI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-
-        String fidel[] = new String[7];
-
-          // se
-        fidel[0] = "\u1230";
-        fidel[1] = "\u1231";
-        fidel[2] = "\u1232";
-        fidel[3] = "\u1233";
-        fidel[4] = "\u1234";
-        fidel[5] = "\u1235";
-        fidel[6] = "\u1236";
-
+//
+//        String fidel[] = new String[7];
+//
+//          // se
+//        fidel[0] = "\u1230";
+//        fidel[1] = "\u1231";
+//        fidel[2] = "\u1232";
+//        fidel[3] = "\u1233";
+//        fidel[4] = "\u1234";
+//        fidel[5] = "\u1235";
+//        fidel[6] = "\u1236";
+//
 //        Thread t;
 //        t = new Thread() {
-            @Override
-
-            public void run() {  // override the run() to specify the running behavior
-
-                Color colors[] = {Color.GREEN, Color.YELLOW, Color.RED, Color.BLUE, Color.ORANGE, Color.WHITE, Color.CYAN};
-
-                for (int i = 0; i < fidel.length; i++) {
-
-                    jButton7.setText(fidel[i]);
-                    jButton7.setBackground(colors[i]);
-                    SoundNarrator.playFidel(jButton7.getText());
-                    try {
-                        sleep(tSpeed); // milliseconds
-                    } catch (InterruptedException ex) {
-                        System.out.println("Interupted exception has occured");
-                    }
-                }
-                setGeezButtonText();
-            }
-        };
-
-        t.start();  // call back run() method
-
+//            @Override
+//
+//            public void run() {  // override the run() to specify the running behavior
+//
+//                Color colors[] = {Color.GREEN, Color.YELLOW, Color.RED, Color.BLUE, Color.ORANGE, Color.WHITE, Color.CYAN};
+//
+//                for (int i = 0; i < fidel.length; i++) {
+//
+//                    jButton7.setText(fidel[i]);
+//                    jButton7.setBackground(colors[i]);
+//                    SoundNarrator.playFidel(jButton7.getText());
+//                    try {
+//                        sleep(tSpeed); // milliseconds
+//                    } catch (InterruptedException ex) {
+//                        System.out.println("Interupted exception has occured");
+//                    }
+//                }
+//                setGeezButtonText();
+//            }
+//        };
+//
+//        t.start();  // call back run() method
+//
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
