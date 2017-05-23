@@ -1254,8 +1254,8 @@ public class UI extends javax.swing.JFrame {
         fidel[5] = "\u1235";
         fidel[6] = "\u1236";
 
-        Thread t;
-        t = new Thread() {
+//        Thread t;
+//        t = new Thread() {
             @Override
 
             public void run() {  // override the run() to specify the running behavior
