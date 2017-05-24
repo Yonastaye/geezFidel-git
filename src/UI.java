@@ -4,7 +4,8 @@ import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JOptionPane;
-import java.util.Scanner;
+
+import java.io.*;
 
 public class UI extends javax.swing.JFrame {
 
