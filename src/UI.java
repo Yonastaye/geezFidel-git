@@ -3,6 +3,9 @@ import java.awt.Color;
 import javax.swing.ButtonGroup;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+
 public class UI extends javax.swing.JFrame {
 
     private int tSpeed = 2000;    // controls the speed of dynamicaly changing buttons
